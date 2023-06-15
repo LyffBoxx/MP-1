@@ -20,11 +20,9 @@ nav {
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 8px 32px;
     gap: 153px;
 
-    width: 1312px;
-    height: 69px;
+
 
     /* company color */
 
@@ -37,11 +35,10 @@ nav {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    padding: 0px;
+    padding: 0;
     gap: 8px;
 
-    width: 680px;
-    height: 53px;
+    width: 100%;
 }
 
 
@@ -49,11 +46,11 @@ nav {
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 0px;
+    padding: 1%;
     gap: 97px;
 
-    width: 415px;
-    height: 44px;
+    width: 60%
+    
 }
 
 .nav_links a {
@@ -68,8 +65,9 @@ nav {
 }
 
 .nav_links_button {
+    width: 60%;
     align-items: flex-start;
-    padding: 10px 16px;
+    padding: 2% 1%;
     gap: 10px;
 
     border: 1px solid #155EEF;
@@ -99,11 +97,11 @@ nav {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 64px 32px;
+    padding: 1% 2%;
     gap: 100px;
 
-    width: 1312px;
-    height: 614px;
+    /* width: 1312px;
+    height: 614px; */
 
     background: #F9FBFF;
     /* company color */
@@ -118,9 +116,10 @@ nav {
     align-items: flex-start;
     padding: 0px;
     gap: 24px;
+    width: 50%;
 
-    width: 671px;
-    height: 319px;
+    /* width: 671px;
+    height: 319px; */
 }
 
 .card_one_section strong {
@@ -139,8 +138,10 @@ nav {
 }
 
 .card_one_section h1 {
-    width: 671px;
-    height: 67px;
+    /* width: 671px;
+    height: 67px; */
+    width: 100%;
+    padding: 1% 0;
 
     font-family: 'Halant';
     font-style: normal;
@@ -154,8 +155,10 @@ nav {
 
 }
 .card_one_section p {
-    width: 595px;
-    height: 216px;
+    /* width: 595px;
+    height: 216px; */
+    width: 100%;
+    padding: 1% 1%;
 
     font-family: 'Manrope';
     font-style: normal;
@@ -168,11 +171,13 @@ nav {
     letter-spacing: 0.5px;
 
     color: #2E3A53;
+
 }
 
 .card_one_section_button {
-    width: 132px;
-    height: 24px;
+    /* width: 132px;
+    height: 24px; */
+    width: 60%;
 
     font-family: 'Manrope';
     font-style: normal;
@@ -204,8 +209,8 @@ nav {
 }
 
 .card_one_image {
-    width: 514px;
-    height: 486px;
+    width: 60%;
+    padding: 1% 0;
 }
 
 
@@ -214,23 +219,24 @@ nav {
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 64px 32px;
+    padding: 5% 2%;
     gap: 100px;
 
-    width: 1312px;
-    height: 528px;
+    /* width: 1312px;
+    height: 528px; */
 
     border: 2px solid #155EEF;
     border-radius: 8px;
     /*margin: 55px 0;*/
-    margin: 3% 0;
+    margin: 5% 0;
 }
 
 .card_two_image {
     box-sizing: border-box;
 
-    width: 544px;
-    height: 400px;
+    width: 100%;
+    padding: 7% 0;
+    
 
     /* company color */
 
@@ -241,18 +247,19 @@ nav {
 }
 
 .card_two_image img {
-    width: 535px;
-    height: 384px;
+    width: 100%;
+    /* height: 384px; */
+    padding: 5% 1%;
 }
 
 .card_two_section {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding: 0px;
+    padding: 1% 0;
     gap: 24px;
 
-    width: 604px;
+    width: 100%;
     height: 288px;
     justify-content: center;
 }
@@ -273,8 +280,8 @@ nav {
 }
 
 .card_two_section p {
-    width: 595px;
-    height: 216px;
+    padding: 0.5% 0;
+    width: 100%;
     font-family: 'Manrope';
     font-style: normal;
     font-weight: 400;
@@ -287,6 +294,117 @@ nav {
 
     color: #2E3A53;
 }
+
+.card_three {
+    box-sizing: border-box;
+
+    /* position: absolute; */
+    /* width: 1312px;
+    height: 788px; */
+    /* left: 64px;
+    top: 1363px; */
+
+    /* company color */
+
+    border: 2px solid #155EEF;
+    border-radius: 8px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    position: relative;
+    margin-bottom: 5%;
+    padding: 10% 0;
+}
+
+.card_three_image {
+    /* position: absolute; */
+    /* width: 713.85px;
+    height: 539px; */
+    /* left: 566.15px;
+    top: 196px; */
+    width: 50%;
+
+    background: url(frame.png);
+}
+
+.card_three_image img {
+    /* height: 539px; */
+    width: 100%;
+}
+
+.card_three_section {
+    /* display: flex;
+    flex-direction: column; */
+    /* align-items: flex-start; */
+    padding: 6% 2%;
+    /* gap: 24px; */
+
+    position: absolute;
+    /* width: 693px;
+    height: 722px; */
+    left: 25px;
+    top: 35px;
+    width: 60%;
+
+    background: #F9FBFF;
+}
+
+.card_three_section h3 {
+    font-family: 'Halant';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 120%;
+    /* identical to box height, or 48px */
+
+
+    /* Primary Text */
+
+    color: #041330;
+}
+
+.card_three_section ul {
+    /* width: 645px;
+    height: 470px; */
+    
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 120%;
+    /* or 29px */
+    margin: 3% 0 3% 7%;
+    
+    
+    letter-spacing: 0.5px;
+    
+    /* Secondary Text */
+    
+    color: #2E3A53;
+    
+    * Inside auto layout */
+}
+
+.card_three_section p {
+    /* width: 645px;
+    height: 470px; */
+    
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 120%;
+    /* or 29px */
+    
+    letter-spacing: 0.5px;
+    
+    /* Secondary Text */
+    
+    color: #2E3A53;
+    
+    * Inside auto layout */
+}
+
 footer {
     display: flex;
     flex-direction: row;
@@ -294,8 +412,8 @@ footer {
     align-items: center;
     padding: 16px 32px;
 
-    width: 1312px;
-    height: 88px;
+    /* width: 1312px;
+    height: 88px; */
 
     /* company color */
 
@@ -307,11 +425,12 @@ footer {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    padding: 0px;
+    padding: 0;
     gap: 32px;
 
-    width: 424px;
-    height: 54.08px;
+    /* width: 424px;
+    height: 54.08px; */
+    width: 60%;
 }
 
 .footer_icons {
@@ -319,20 +438,22 @@ footer {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 0px;
+    padding: 1% 0;
     gap: 32px;
 
-    width: 424px;
-    height: 24px;
+    /* width: 424px;
+    height: 24px; */
+    width: 100%;
 }
 .p_footer {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
     align-items: flex-start;
-    padding: 10px;
+    padding: 1% 0;
     gap: 10px;
 
-    width: 424px;
-    height: 56px;
+    /* width: 424px;
+    height: 56px; */
+    width: 60%;
 }
